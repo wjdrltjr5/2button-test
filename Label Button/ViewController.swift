@@ -18,9 +18,10 @@ class ViewController: UIViewController {
         self.view.backgroundColor = UIColor.blue
     }
 
-    @IBAction func ltbtn(_ sender: Any) {
-        show.text = "왼쪽버튼 클릭"
+    @IBAction func ltbutton(_ sender: Any) {
+    show.text = "왼쪽 버튼 클릭"
     }
+    
     
     @IBAction func rtbtn(_ sender: Any) {
     show.text = "오른쪽 버튼 클릭"

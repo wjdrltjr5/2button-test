@@ -23,7 +23,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="왼쪽버튼"/>
                                 <connections>
-                                    <action selector="leftbtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pPM-Sb-I53"/>
+                                    <action selector="ltbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="43d-cs-VY3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t1c-0z-giG">
