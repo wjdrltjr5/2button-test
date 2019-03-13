@@ -10,11 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var show: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.view.backgroundColor = UIColor.blue
     }
 
-
+    @IBAction func ltbtn(_ sender: Any) {
+        show.text = "왼쪽버튼 클릭"
+    }
+    
+    @IBAction func rtbtn(_ sender: Any) {
+    show.text = "오른쪽 버튼 클릭"
+    }
 }
 
